@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="external.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Github Searcher</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Github Finder</h1>
+            <h4>Search for any Github user</h4>
+        </div>
+
+        <div class="search">
+            <form id="form" action="somewhere.php" autocomplete="off">
+                <input id="search-field" type="text" placeholder="Enter a username">
+            </form>
+        </div>
+
+        <div id="blank">
+            <div class="profile-img">
+                <a id="profile-btn">View Profile</a>
+            </div>
+
+            <div class="information">
+                <div class="box1">
+                    <h5>Followers:</h5>
+                    <h5>Public Gists:</h5>
+                    <h5>Public Repos:</h5>
+                </div>
+
+                <div class="box2">
+                    <h5>Member since:</h5>
+                    <h5>Company:</h5>
+                    <h5>Location:</h5>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bottom-box">
+                <h3>Latest Posts</h3>
+            <div class="latest-posts">
+            </div>
+        </div>
+
+        <footer>
+            <h5>Created by Nick Zinn, Help from <span><a target="_blank" href="https://www.traversymedia.com/">Brad Traversy</a></span></h5>
+        </footer>
+    </div>
+
+    
+    <script src="api.js"></script>
+    <script src="ui.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
